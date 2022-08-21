@@ -1,6 +1,9 @@
 myList=[22,4,16,38,13]
 choice=0
-for attempt in range(3):print("Attempt number:", attempt)
+
+for attempt in range(3):
+    print("Attempt number:", attempt)
+    
 print("The list 'myList' has the following element", myList)
 print("L I S T  O P E R A T I O N S")
 print(" 1. Append an element")
@@ -12,6 +15,7 @@ print(" 6. Delete an existing element by its value")
 print(" 7. Sort the list in ascending order")
 print(" 8. Sort the list in descending order")
 print(" 9. Display the list")
+
 choice=int(input("Enter Your Choice (1-9): "))
 
 if choice == 1:
