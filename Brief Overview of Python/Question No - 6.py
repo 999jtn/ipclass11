@@ -5,7 +5,7 @@ PmoneyLent = float(input("Principle Money Lent: ")) #Gets Principle amount money
 ratePercent = float(input("Simple Interest Rate Per annum(in %): ")) #Gets Rate per annum from the user.
 
 Time = int(input("Time(in years): ")) #Gets time for which period money is to be repaid.
-print("") #Vacant SPace to look good.
+print("") #Vacant Space to look good.
 
 sInterest = float((PmoneyLent * ratePercent * Time)/100) #Calculates Simple Interest.
                                                          #Simple Interest = (P x R x T)/ 100. 
